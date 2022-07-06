@@ -70,12 +70,6 @@
       "executable": "app-eggd_vep/1.0.0",
       "folder": "vep_1.0.0",
       "input": {
-        "panel_bed": {
-          "$dnanexus_link": {
-            "project": "project-Fkb6Gkj433GVVvj73J7x8KbV",
-            "id": "file-FkkZQ1Q433GYXZ892pzkgvbP"
-          }
-        },
         "config_file": {
           "$dnanexus_link": "file-GF1Pz7j4jKXFGZkz7gJPq833"
         },
@@ -89,8 +83,8 @@
     },
     {
       "id": "stage-GF25ZXj4b0bxQzBjG9jJ1q77",
-      "executable": "applet-GF25Yj04b0bQJkv22PvqGFvy",
-      "folder": "generate_variant_workboof_v2.1.0",
+      "executable": "app-GBvv0j842v8JX4P25Y39BF0b",
+      "folder": "generate_variant_workbook_v2.1.0",
       "input": {
         "vcfs": [
           {
