@@ -94,7 +94,7 @@
             }
           }
         ],
-        "exclude_columns": "CSQ_Existing_variation CSQ_ClinVar_CLNDN CSQ_ClinVar_CLNSIGCONF CSQ_HGMD CSQ_HGMD_PHEN CSQ_HGNC_ID CSQ_Mastermind_MMID3 CSQ_gnomADe_Hom CSQ_gnomADe_AC CSQ_gnomADe_AN CSQ_gnomADg_AC CSQ_gnomADg_AN CSQ_TWE_AC_Het CSQ_TWE_AC_Hom CSQ_TWE_AF CSQ_TWE_AN ID AD CSQ_STRAND CSQ_Allele CSQ_Feature CSQ_VARIANT_CLASS CSQ_HGVS_OFFSET GT GQ NL SB NC US AQ LQ",
+        "exclude_columns": "CSQ_Existing_variation CSQ_HGNC_ID CSQ_Mastermind_MMID3 CSQ_TWE_AC_Het CSQ_TWE_AC_Hom CSQ_TWE_AF CSQ_TWE_AN ID CSQ_Allele CSQ_Feature",
         "reorder_columns": "CHROM POS REF ALT FILTER QUAL DP DP_FMT VF CSQ_SYMBOL CSQ_EXON CSQ_INTRON CSQ_HGVSc CSQ_HGVSp CSQ_Consequence CSQ_IMPACT CSQ_VARIANT_CLASS CSQ_CADD_PHRED CSQ_REVEL CSQ_gnomADe_AF CSQ_gnomADg_AF CSQ_ClinVar CSQ_ClinVar_CLNSIG CSQ_SpliceAI_pred_DS_AG CSQ_SpliceAI_pred_DS_AL CSQ_SpliceAI_pred_DS_DG CSQ_SpliceAI_pred_DS_DL",
         "filter": "bcftools filter -e 'INFO/DP==0 | CSQ_Consequence==\"3_prime_UTR_variant\" | CSQ_Consequence==\"5_prime_UTR_variant\" | CSQ_Consequence==\"downstream_gene_variant\" | CSQ_Consequence==\"intron_variant\" | CSQ_Consequence==\"splice_region_variant:intron_variant\" | CSQ_Consequence==\"splice_region_variant:synonymous_variant\" | CSQ_Consequence==\"synonymous_variant\" | CSQ_Consequence==\"upstream_gene_variant\"'",
         "keep_tmp": true
