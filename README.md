@@ -2,6 +2,7 @@
 
 How to run it:
 
+```
 for sample in $(dx ls ${output_path}/analysis_folder/Logs_Intermediates/SampleAnalysisResults/*_SampleAnalysisResults.json); \
   do sample_prefix=$(echo $sample |sed 's/_SampleAnalysisResults.json//'); \
   echo $sample_prefix ;\
@@ -11,3 +12,4 @@ for sample in $(dx ls ${output_path}/analysis_folder/Logs_Intermediates/SampleAn
   -istage-GF22GJQ4b0bjFFxG4pbgFy5V.name=${sample_prefix} \
   --destination="${output_path}/reports_workflow_1" -y; \
 done
+```
