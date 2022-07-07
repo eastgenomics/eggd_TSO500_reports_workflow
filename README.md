@@ -10,6 +10,7 @@ for sample in $(dx ls ${output_path}/analysis_folder/Logs_Intermediates/SampleAn
   -istage-GF22j384b0bpYgYB5fjkk34X.bam=$(dx find data --name "${sample_prefix}*.bam" --path ${output_path}/analysis_folder/Logs_Intermediates/StitchedRealigned/ --brief) \
   -istage-GF22j384b0bpYgYB5fjkk34X.index=$(dx find data --name "${sample_prefix}*.bai" --path ${output_path}/analysis_folder/Logs_Intermediates/StitchedRealigned/ --brief) \
   -istage-GF22GJQ4b0bjFFxG4pbgFy5V.name=${sample_prefix} \
+  -istage-GF25f384b0bVZkJ2P46f79xy.gvcf=$(dx find data --name "${sample_prefix}*.genome.vcf" --path ${output_path}/analysis_folder/Results/ --brief) \
   --destination="${output_path}/reports_workflow_1" -y; \
 done
 ```
