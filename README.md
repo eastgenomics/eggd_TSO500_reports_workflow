@@ -13,3 +13,6 @@ for sample in $(dx ls ${output_path}/analysis_folder/Logs_Intermediates/SampleAn
   --destination="${output_path}/reports_workflow_1" -y; \
 done
 ```
+
+Testing directory:
+https://platform.dnanexus.com/projects/GF1V5v84b0bzgy6qJGx4qyjf/data/
