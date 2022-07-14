@@ -84,7 +84,7 @@
     {
       "id": "stage-GF25ZXj4b0bxQzBjG9jJ1q77",
       "executable": "app-GBvv0j842v8JX4P25Y39BF0b",
-      "folder": "generate_variant_workbook_v2.1.0",
+      "folder": "generate_variant_workbook_v2.1.1",
       "input": {
         "vcfs": [
           {
