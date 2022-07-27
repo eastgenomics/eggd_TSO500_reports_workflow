@@ -4,6 +4,11 @@
   "summary": "Workflow to generate Athena coverage report and Excel workbook from TSO500 local app output",
   "stages": [
     {
+      "id": "stage-GFQZjB84b0bxz4Yg1y3ygKJZ",
+      "executable": "applet-FvyXygj433GbKPPY0QY8ZKQG",
+      "folder": "multi_fastqc_v1.1.0"
+    },
+    {
       "id": "stage-GF22j384b0bpYgYB5fjkk34X",
       "executable": "applet-Fxq07gQ433Gyz14j5ZZ1fzk1",
       "folder": "eggd_mosdepth_v1.0.1",
