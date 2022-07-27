@@ -16,5 +16,5 @@ DNAnexus workflow to generate coverage reports and Excel workbooks for TSO500 so
 |mosdepth           |1.0.1|
 |athena             |1.4.0|
 |eggd_tso500_rescue |1.0.0|
-|eggd_vep           |1.0.0|
-|eggd_generate_variant_workbook |2.1.0|
+|eggd_vep           |1.1.0|
+|eggd_generate_variant_workbook |2.1.1|
