@@ -60,7 +60,7 @@
         "hotspot_vcf": {
           "$dnanexus_link": {
             "project": "project-Fkb6Gkj433GVVvj73J7x8KbV",
-            "id": "file-G9BYfj0433Gv3p952j56KfB2"
+            "id": "file-GFGVxxQ4f4z4yz2q38VYz02X"
           }
         }
       }
@@ -77,10 +77,16 @@
           }
         },
         "config_file": {
-          "$dnanexus_link": "file-GFFx6Y04jKX3qpxZ3B8JFj4f"
+          "$dnanexus_link": {
+            "project": "project-Fkb6Gkj433GVVvj73J7x8KbV",
+            "id": "file-GFFx6Y04jKX3qpxZ3B8JFj4f"
+          }
         },
         "transcript_list": {
-          "$dnanexus_link": "file-GFPxX0Q4jKX0Jg1ZGXgXf13x"
+          "$dnanexus_link": {
+            "project": "project-Fkb6Gkj433GVVvj73J7x8KbV",
+            "id": "file-GFPxX0Q4jKX0Jg1ZGXgXf13x"
+          }
         }
       }
     },
