@@ -4,9 +4,6 @@ DNAnexus workflow to generate coverage reports and Excel workbooks for TSO500 so
 
 ---
 
-## Current Version: 1.0.0
-
-
 ![Image of workflow](images/tso500_reports_workflow.png)
 
 ## What apps are used in this workflow?
