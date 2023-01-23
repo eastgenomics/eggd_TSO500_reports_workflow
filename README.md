@@ -4,9 +4,6 @@ DNAnexus workflow to generate coverage reports and Excel workbooks for TSO500 so
 
 ---
 
-## Current Version: 1.0.0
-
-
 ![Image of workflow](images/tso500_reports_workflow.png)
 
 ## What apps are used in this workflow?
@@ -15,7 +12,7 @@ DNAnexus workflow to generate coverage reports and Excel workbooks for TSO500 so
 |---	|---	|
 |multi_fastqc       |1.1.0|
 |mosdepth           |1.0.1|
-|athena             |1.4.0|
-|eggd_tso500_rescue |1.0.0|
+|athena             |1.5.0|
+|eggd_vcf_rescue |1.1.0|
 |eggd_vep           |1.1.0|
-|eggd_generate_variant_workbook |2.1.1|
+|eggd_generate_variant_workbook |2.3.0|
