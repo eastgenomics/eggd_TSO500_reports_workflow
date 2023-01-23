@@ -11,7 +11,7 @@
     {
       "id": "stage-GF22j384b0bpYgYB5fjkk34X",
       "executable": "applet-Fxq07gQ433Gyz14j5ZZ1fzk1",
-      "folder": "eggd_mosdepth_v1.0.1",
+      "folder": "mosdepth_v1.0.1",
       "input": {
         "bed": {
           "$dnanexus_link": {
@@ -56,7 +56,7 @@
     {
       "id": "stage-GF25f384b0bVZkJ2P46f79xy",
       "executable": "app-eggd_vcf_rescue/1.1.0",
-      "folder": "eggd_vcf_rescue_1.1.0",
+      "folder": "vcf_rescue_1.1.0",
       "input": {
         "fasta_tar": {
           "$dnanexus_link": {
