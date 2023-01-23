@@ -56,7 +56,7 @@
     {
       "id": "stage-GF25f384b0bVZkJ2P46f79xy",
       "executable": "app-eggd_vcf_rescue/1.1.0",
-      "folder": "TSO500_rescue_1.1.0",
+      "folder": "eggd_vcf_rescue_1.1.0",
       "input": {
         "fasta_tar": {
           "$dnanexus_link": {
