@@ -1,6 +1,6 @@
 {
-  "name": "TSO500_reports_workflow_v1.1.3",
-  "title": "TSO500_reports_workflow_v1.1.3",
+  "name": "TSO500_reports_workflow_v1.1.4",
+  "title": "TSO500_reports_workflow_v1.1.4",
   "summary": "Workflow to run multi fastqc, generate Athena coverage report and Excel variant workbook from TSO500 local app output",
   "stages": [
     {
@@ -88,7 +88,7 @@
         "config_file": {
           "$dnanexus_link": {
             "project": "project-Fkb6Gkj433GVVvj73J7x8KbV",
-            "id": "file-GV3y2884VBPv98q2BjYQfkfX"
+            "id": "file-GVx0qVQ40P9984Gkvv2qyFk6"
           }
         },
         "transcript_list": {
