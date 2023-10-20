@@ -25,5 +25,5 @@ DNAnexus workflow to generate coverage reports and Excel workbooks for TSO500 so
 |athena             | [tso500_exons_nirvana_210813_511_genes_v1_0.bed](https://platform.dnanexus.com/projects/Fkb6Gkj433GVVvj73J7x8KbV/data/?id.values=file-G4F6jX04ZFVV3JZJG62ZQ5yJ) | v1.0 |
 |athena             | [exons_nirvana2010_no_PAR_Y.tsv](https://platform.dnanexus.com/projects/Fkb6Gkj433GVVvj73J7x8KbV/data/?id.values=file-Fq18Yp0433GjB7172630p9Yv)	| not versioned |
 |eggd_vcf_rescue | [220721_TSO500_hotspot_rescue.vcf.gz](https://platform.dnanexus.com/projects/Fkb6Gkj433GVVvj73J7x8KbV/data/?id.values=file-GFGVxxQ4f4z4yz2q38VYz02X)	| 220721 |
-|eggd_vep           | [tso500_vep_config_v1.2.0.json](https://platform.dnanexus.com/panx/projects/Fkb6Gkj433GVVvj73J7x8KbV/data/dynamic_files/vep_configs)	| v1.2.0 |
+|eggd_vep           | [tso500_vep_config_v1.2.1.json](https://platform.dnanexus.com/panx/projects/Fkb6Gkj433GVVvj73J7x8KbV/data/dynamic_files/vep_configs)	| v1.2.1 |
 |eggd_vep           | [tso500_vep_transcript_list_b37_v1.1.0.txt](https://platform.dnanexus.com/projects/Fkb6Gkj433GVVvj73J7x8KbV/data/?id.values=file-GP56zxj433GxQVy493QpFP6x)	| v1.1.0 |
