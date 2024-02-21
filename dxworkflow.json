@@ -4,11 +4,6 @@
   "summary": "Workflow to run multi fastqc, generate Athena coverage report and Excel variant workbook from TSO500 local app output",
   "stages": [
     {
-      "id": "stage-multi_fastqc",
-      "executable": "applet-FvyXygj433GbKPPY0QY8ZKQG",
-      "folder": "multi_fastqc_v1.1.0"
-    },
-    {
       "id": "stage-mosdepth",
       "executable": "applet-Fxq07gQ433Gyz14j5ZZ1fzk1",
       "folder": "mosdepth_v1.0.1"
