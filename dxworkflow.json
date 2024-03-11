@@ -1,6 +1,6 @@
 {
-  "name": "TSO500_reports_workflow_v1.3.5",
-  "title": "TSO500_reports_workflow_v1.3.5",
+  "name": "TSO500_reports_workflow_v1.4.0",
+  "title": "TSO500_reports_workflow_v1.4.0",
   "summary": "Workflow to run multi fastqc, generate Athena coverage report and Excel variant workbook from TSO500 local app output",
   "stages": [
     {
@@ -94,7 +94,26 @@
         "transcript_list": {
           "$dnanexus_link": {
             "project": "project-Fkb6Gkj433GVVvj73J7x8KbV",
-            "id": "file-GP56zxj433GxQVy493QpFP6x"
+            "id": "file-GgQ9xb8405jxjZ778k6Zg0Xk"
+          }
+        }
+      }
+    },
+    {
+      "id": "stage-eggd_add_MANE_annotation",
+      "executable": "app-eggd_add_MANE_annotation/1.0.0",
+      "folder": "add_MANE_annotation_1.0.0",
+      "input": {
+        "input_vcf_annotated": {
+          "$dnanexus_link": {
+            "stage": "stage-GF25PqQ4b0bQjvBVP4Bb5pJ0",
+            "outputField": "annotated_vcf"
+          }
+        },
+        "transcript_file": {
+          "$dnanexus_link": {
+            "project": "project-Fkb6Gkj433GVVvj73J7x8KbV",
+            "id": "file-Gg5p2J04qJpk3GyJXjFyby66"
           }
         }
       }
@@ -107,8 +126,8 @@
         "vcfs": [
           {
             "$dnanexus_link": {
-              "stage": "stage-GF25PqQ4b0bQjvBVP4Bb5pJ0",
-              "outputField": "annotated_vcf"
+              "stage": "stage-eggd_add_MANE_annotation",
+              "outputField": "output_vcf_annotated_mane"
             }
           }
         ],
