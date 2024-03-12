@@ -120,8 +120,8 @@
     },
     {
       "id": "stage-GF25ZXj4b0bxQzBjG9jJ1q77",
-      "executable": "app-eggd_generate_variant_workbook/2.5.0",
-      "folder": "generate_variant_workbook_v2.5.0",
+      "executable": "app-eggd_generate_variant_workbook/2.8.0",
+      "folder": "generate_variant_workbook_v2.8.0",
       "input": {
         "vcfs": [
           {
