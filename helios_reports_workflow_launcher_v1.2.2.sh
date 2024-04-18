@@ -4,7 +4,7 @@ output_path="$1"
 destination="${output_path%%\/eggd_tso500}"
 
 # define the REPORTS WORKFLOW VERSION to use (currently v1.4.2)
-workflow_id="workflow-GjKQqBj4yfK1yYzXXbypQyZ7"
+workflow_id="project-Fkb6Gkj433GVVvj73J7x8KbV:workflow-GjKQqBj4yfK1yYzXXbypQyZ7"
 workflow_name=$(dx describe --json "$workflow_id" | jq -r '.name')
 
 # create a list of the sample ids from the samplesheet, print the number of samples
