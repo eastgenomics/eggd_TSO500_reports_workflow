@@ -28,3 +28,17 @@ DNAnexus workflow to generate coverage reports and Excel workbooks for TSO500 so
 |eggd_vcf_rescue | [220721_TSO500_hotspot_rescue.vcf.gz](https://platform.dnanexus.com/projects/Fkb6Gkj433GVVvj73J7x8KbV/data/?id.values=file-GFGVxxQ4f4z4yz2q38VYz02X)	| 220721 |
 |eggd_vep           | [tso500_vep_config_v1.2.6.json](https://platform.dnanexus.com/panx/projects/Fkb6Gkj433GVVvj73J7x8KbV/data/dynamic_files/vep_configs)	| v1.2.6 |
 |eggd_vep           | [tso500_vep_transcript_list_b37_v1.2.0.txt](https://platform.dnanexus.com/panx/projects/Fkb6Gkj433GVVvj73J7x8KbV/data/dynamic_files/tso500_transcripts)	| v1.2.0 |
+
+# TSO500_reports_workflow_launcher
+
+A script version of the code in the Helios manual which launches the reports workflow for all samples in a TSO500 run.
+
+Requires the path to the main output of eggd_tso500 to be supplied as a command line argument.
+
+```
+# USAGE
+# bash helios_reports_workflow_launcher_v1.2.1.sh <output_path>
+
+# EXAMPLE
+# bash helios_reports_workflow_launcher_v1.2.1.sh /output/TSO500-231220-TEST/eggd_tso500
+```
