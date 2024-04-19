@@ -131,15 +131,15 @@
             }
           }
         ],
-        "exclude_columns": "ID CSQ_Allele CSQ_Mastermind_MMID3",
-        "reorder_columns": "CSQ_SYMBOL CSQ_Consequence CSQ_Feature MANE DNA Protein VF Classification Comment rawChange CHROM POS REF ALT FILTER QUAL DP DP_FMT oncoKB PeCan cBioPortal CSQ_EXON CSQ_INTRON CSQ_IMPACT  CSQ_CADD_PHRED CSQ_REVEL CSQ_gnomADe_AF CSQ_gnomADg_AF CSQ_ClinVar CSQ_ClinVar_CLNSIG CSQ_ClinVar_CLNDN CSQ_SpliceAI_pred_DS_AG CSQ_SpliceAI_pred_DS_AL CSQ_SpliceAI_pred_DS_DG CSQ_SpliceAI_pred_DS_DL CSQ_SpliceAI_pred_DP_AG CSQ_SpliceAI_pred_DP_AL CSQ_SpliceAI_pred_DP_DG CSQ_SpliceAI_pred_DP_DL",
+        "exclude_columns": "ID CSQ_Allele CSQ_Mastermind_MMID3 DP_FMT",
+        "reorder_columns": "CSQ_SYMBOL CSQ_Consequence CSQ_Feature DNA Protein VF Classification Comment rawChange MANE CHROM POS REF ALT FILTER QUAL DP CSQ_EXON oncoKB PeCan cBioPortal CSQ_INTRON CSQ_IMPACT  CSQ_CADD_PHRED CSQ_REVEL CSQ_gnomADe_AF CSQ_gnomADg_AF CSQ_ClinVar CSQ_ClinVar_CLNSIG CSQ_ClinVar_CLNDN CSQ_SpliceAI_pred_DS_AG CSQ_SpliceAI_pred_DS_AL CSQ_SpliceAI_pred_DS_DG CSQ_SpliceAI_pred_DS_DL CSQ_SpliceAI_pred_DP_AG CSQ_SpliceAI_pred_DP_AL CSQ_SpliceAI_pred_DP_DG CSQ_SpliceAI_pred_DP_DL",
         "filter": "bcftools filter -e 'INFO/DP==0 | CSQ_gnomADe_AF > 0.01 | CSQ_gnomADg_AF > 0.01 | VF < 0.05 | CSQ_Consequence==\"intron_variant&non_coding_transcript_variant\" | CSQ_Consequence==\"non_coding_transcript_exon_variant\" | CSQ_Consequence==\"3_prime_UTR_variant\" | CSQ_Consequence==\"5_prime_UTR_variant\" | CSQ_Consequence==\"downstream_gene_variant\" | CSQ_Consequence==\"intron_variant\" | CSQ_Consequence==\"splice_region_variant&intron_variant\" | CSQ_Consequence==\"splice_region_variant&synonymous_variant\" | CSQ_Consequence==\"synonymous_variant\" | (CSQ_SYMBOL != \"TERT\" & CSQ_Consequence==\"upstream_gene_variant\")'",
         "keep_tmp": true,
         "split_hgvs": true,
         "add_comment_column": true,
         "add_classification_column": true,
         "add_raw_change": true,
-        "freeze_column": "H2",
+        "freeze_column": "G2",
         "additional_columns": "oncoKB PeCan cBioPortal",
         "summary": "helios",
         "colour_cells": "VF:>=0.9:#2ab600 VF:<0.9&>=0.8:#51bc00 VF:<0.8&>=0.7:#7bc100 VF:<0.7&>=0.6:#a7c700 VF:<0.6&>=0.5:#ccc300 VF:<0.5&>=0.4:#d29d00 VF:<0.4&>=0.3:#d77600 VF:<0.3&>=0.2:#dd4c00 VF:<0.2&>=0.1:#e22000 VF:<0.1:#e8000f"
