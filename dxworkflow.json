@@ -24,25 +24,9 @@
       }
       },
     {
-      "id": "stage-GF25f384b0bVZkJ2P46f79xy",
+      "id": "stage-vcf_rescue",
       "executable": "app-eggd_vcf_rescue/1.1.0",
-      "folder": "vcf_rescue_1.1.0",
-      "input": {
-        "fasta_tar": {
-          "$dnanexus_link": {
-            "project": "project-Fkb6Gkj433GVVvj73J7x8KbV",
-            "id": "file-F3zxG0Q4fXX9YFjP1v5jK9jf"
-          }
-        },
-        "rescue_vcf": {
-          "$dnanexus_link": {
-            "project": "project-Fkb6Gkj433GVVvj73J7x8KbV",
-            "id": "file-GFGVxxQ4f4z4yz2q38VYz02X"
-          }
-        },
-        "rescue_non_pass": true,
-        "strip_chr": true
-      }
+      "folder": "vcf_rescue_1.1.0"
     },
     {
       "id": "stage-GF25PqQ4b0bQjvBVP4Bb5pJ0",
