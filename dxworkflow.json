@@ -29,26 +29,14 @@
       "folder": "vcf_rescue_1.1.0"
     },
     {
-      "id": "stage-GF25PqQ4b0bQjvBVP4Bb5pJ0",
-      "executable": "app-eggd_vep/1.1.0",
-      "folder": "vep_1.1.0",
+      "id": "stage-vep",
+      "executable": "app-eggd_vep/1.3.0",
+      "folder": "vep_1.3.0",
       "input": {
         "vcf": {
           "$dnanexus_link": {
-            "stage": "stage-GF25f384b0bVZkJ2P46f79xy",
+            "stage": "stage-vcf_rescue",
             "outputField": "output_vcf"
-          }
-        },
-        "config_file": {
-          "$dnanexus_link": {
-            "project": "project-Fkb6Gkj433GVVvj73J7x8KbV",
-            "id": "file-Gj0p59Q40P9BQKP4Pz1qV5yj"
-          }
-        },
-        "transcript_list": {
-          "$dnanexus_link": {
-            "project": "project-Fkb6Gkj433GVVvj73J7x8KbV",
-            "id": "file-GgQ9xb8405jxjZ778k6Zg0Xk"
           }
         }
       }
