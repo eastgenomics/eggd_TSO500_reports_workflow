@@ -48,14 +48,8 @@
       "input": {
         "input_vcf_annotated": {
           "$dnanexus_link": {
-            "stage": "stage-GF25PqQ4b0bQjvBVP4Bb5pJ0",
+            "stage": "stage-vep",
             "outputField": "annotated_vcf"
-          }
-        },
-        "transcript_file": {
-          "$dnanexus_link": {
-            "project": "project-Fkb6Gkj433GVVvj73J7x8KbV",
-            "id": "file-Gg5p2J04qJpk3GyJXjFyby66"
           }
         }
       }
