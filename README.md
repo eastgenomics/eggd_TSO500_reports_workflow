@@ -11,7 +11,7 @@ DNAnexus workflow to generate coverage reports and Excel workbooks for TSO500 so
 |  App 	| Version  	|
 |---	|---	|
 |eggd_mosdepth           |[1.1.0](https://github.com/eastgenomics/eggd_mosdepth/releases/tag/v1.1.0)|
-|eggd_athena             |[1.5.0](https://github.com/eastgenomics/eggd_athena/releases/tag/v1.5.0)|
+|eggd_athena             |[1.6.0](https://github.com/eastgenomics/eggd_athena/releases/tag/v1.5.0)|
 |eggd_vcf_rescue |[1.1.0](https://github.com/eastgenomics/eggd_vcf_rescue/releases/tag/v1.1.0)|
 |eggd_vep           |[1.3.0](https://github.com/eastgenomics/eggd_vep/releases/tag/v1.3.0)|
 |eggd_add_MANE_annotation       |[1.1.0](https://github.com/eastgenomics/eggd_add_MANE_annotation/releases/tag/v1.1.0)|
