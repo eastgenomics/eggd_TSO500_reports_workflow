@@ -1,100 +1,42 @@
 {
-  "name": "TSO500_reports_workflow_v1.4.2",
-  "title": "TSO500_reports_workflow_v1.4.2",
-  "summary": "Workflow to run multi fastqc, generate Athena coverage report and Excel variant workbook from TSO500 local app output",
+  "name": "TSO500_reports_workflow_v2.0.0",
+  "title": "TSO500_reports_workflow_v2.0.0",
+  "summary": "Workflow to generate Athena coverage report and Excel variant workbook from TSO500 local app output",
   "stages": [
     {
-      "id": "stage-GFQZjB84b0bxz4Yg1y3ygKJZ",
-      "executable": "applet-FvyXygj433GbKPPY0QY8ZKQG",
-      "folder": "multi_fastqc_v1.1.0"
+      "id": "stage-mosdepth",
+      "executable": "app-eggd_mosdepth/1.1.0",
+      "folder": "mosdepth_v1.1.0"
     },
     {
-      "id": "stage-GF22j384b0bpYgYB5fjkk34X",
-      "executable": "applet-Fxq07gQ433Gyz14j5ZZ1fzk1",
-      "folder": "mosdepth_v1.0.1",
+      "id": "stage-athena",
+      "executable": "app-eggd_athena/1.6.0",
+      "folder": "athena_v1.6.0",
       "input": {
-        "bed": {
-          "$dnanexus_link": {
-            "project": "project-Fkb6Gkj433GVVvj73J7x8KbV",
-            "id": "file-FkkZQ1Q433GYXZ892pzkgvbP"
-          }
-        }
-      }
-    },
-    {
-      "id": "stage-GF22GJQ4b0bjFFxG4pbgFy5V",
-      "executable": "app-eggd_athena/1.5.0",
-      "folder": "athena_v1.5.0",
-      "input": {
-        "panel_bed": {
-          "$dnanexus_link": {
-            "project": "project-Fkb6Gkj433GVVvj73J7x8KbV",
-            "id": "file-G4F6jX04ZFVV3JZJG62ZQ5yJ"
-          }
-        },
-        "exons_file": {
-          "$dnanexus_link": {
-            "project": "project-Fkb6Gkj433GVVvj73J7x8KbV",
-            "id": "file-Fq18Yp0433GjB7172630p9Yv"
-          }
-        },
         "mosdepth_files": [
           {
             "$dnanexus_link": {
-              "stage": "stage-GF22j384b0bpYgYB5fjkk34X",
+              "stage": "stage-mosdepth",
               "outputField": "mosdepth_output"
             }
           }
-        ],
-        "panel_filters": "Glioma_PanCan:ALK,ATRX,BCOR,BRAF,CDKN2A,CDKN2B,CTNNB1,DDX3X,DICER1,EZH2,FGFR1,FGFR4,H3-3A,H3-3B,H3C14,H3C2,H3C3,HIST1H3B,IDH1,IDH2,KIT,MSH6,MYCN,NF1,NRAS,PHOX2B,PIK3CA,PMS2,PTCH1,PTCH2,PTEN,RAF1,RB1,SMARCA4,SMARCB1,SMO,SUFU,TERT,TP53,TSC1,TSC2,VHL,YAP1,EGFR Prostate:BRCA1,BRCA2,ATM,CDK12,AR,PTEN,RAD51B,KRAS,GNAS,PIK3CA,TP53,PTEN,ATM,CCND1,FANCA,FANCC,FANCG,RAD50,STK11,CHEK1,CHEK2,ERBB2,PALB2,CDKN2A Melanoma:NRAS,BRAF,KIT,MYB,RREB1,CCND1,MYC,CDKN2A,ARID2,ATM,CDK12,CDKN2A,FGFR1,FGFR2,FGFR3,IDH1,KRAS,MAP2K1,MTOR,NOTCH2,NOTCH4,PDGFRA,PTEN,RB1,SF3B1,SMARCB1,TERT,BAP1,HRAS,MET,GNA11,GNAQ,GNAS,NF1,CCND1,CDK4,FGFR1,FGFR3,KRAS,MDM2,NOTCH2,NOTCH4,PDGFRA,SMARCB1,MET Colon:KRAS,NRAS,BRAF,MLH1,MSH2,MSH6,PMS2,POLD1,POLE,ATM,CHEK1,FGFR2,FGFR3,PALB2,APC,SMAD4,FBXW7,ARID1A,RNF43,PTEN,B2N,PIK3R1,GNAS,ARID1B,BRCA2,AMER1,CREBBP,HRAS,PIK3CA,TP53,RET,ROS1,ERBB2,ERBB3,UGT1 Ovarian:BRCA1,BRCA2,SMARCA4,AKT1,ATM,ATR,CDK12,CHEK1,CHEK2,BARD1,BRIP1,ARID1A,CTNNB1,FANCL,NF1,TP53,MEK,EMSY,RB1,PALB2,PPP2R2A,PTEN,RAD54L,RAD51B,RAD51D,RAD51C,KRAS,NRAS,HRAS,BRAF Endometrial:MLH1,MSH2,MSH6,PMS2,POLE,POLD1,PIK3CA,FGFR2,FGFR3,TP53,ERBB2,ERBB2 Sarcoma:IDH1,IDH2,APC,CTNNB1,GNAS,H3-3A,H3-3B GIST:KIT,PDGFRA,NF1,SDHA,SDHB,SDHC,SDHD,SDHAF2 AFX_PDM:TP53,CDKN2A,TERT,NOTCH1,TMB,MSI,ASXL1,HRAS,KNSTRN,PIK3CA Phaeo_Para:BRAF,EPAS1,FH,HRAS,IDH1,KRAS,MAX,NF1,PTEN,RET,SDHA,SDHAF2,SDHB,SDHC,SDHD,TMEM127,TP53,VHL,SLC25A11,DNMT3A,DAXX,ATRX,MDH2,GOT2,DLST Histiocytosis:BRAF,MAP2K1,NRAS,KRAS,HRAS,ERBB3,ARAF,MAP3K1,PIK3CA,PIK3CD RENAL:CHR_8,CHR_7,CHR_17,FH,SDHA,SDHB,SDHC,SDHD,VHL,ELOC,TSC1,MET,BRAF,TSC2,TCEB1,MET,RET,MTOR,FLCN",
-        "per_chromosome_coverage": true,
-        "thresholds": "50,100,150,250",
-        "cutoff_threshold": 100,
-        "summary": true
+        ]
       }
-    },
+      },
     {
-      "id": "stage-GF25f384b0bVZkJ2P46f79xy",
+      "id": "stage-vcf_rescue",
       "executable": "app-eggd_vcf_rescue/1.1.0",
-      "folder": "vcf_rescue_1.1.0",
-      "input": {
-        "fasta_tar": {
-          "$dnanexus_link": {
-            "project": "project-Fkb6Gkj433GVVvj73J7x8KbV",
-            "id": "file-F3zxG0Q4fXX9YFjP1v5jK9jf"
-          }
-        },
-        "rescue_vcf": {
-          "$dnanexus_link": {
-            "project": "project-Fkb6Gkj433GVVvj73J7x8KbV",
-            "id": "file-GFGVxxQ4f4z4yz2q38VYz02X"
-          }
-        },
-        "rescue_non_pass": true,
-        "strip_chr": true
-      }
+      "folder": "vcf_rescue_1.1.0"
     },
     {
-      "id": "stage-GF25PqQ4b0bQjvBVP4Bb5pJ0",
-      "executable": "app-eggd_vep/1.1.0",
-      "folder": "vep_1.1.0",
+      "id": "stage-vep",
+      "executable": "app-eggd_vep/1.3.0",
+      "folder": "vep_1.3.0",
       "input": {
         "vcf": {
           "$dnanexus_link": {
-            "stage": "stage-GF25f384b0bVZkJ2P46f79xy",
+            "stage": "stage-vcf_rescue",
             "outputField": "output_vcf"
-          }
-        },
-        "config_file": {
-          "$dnanexus_link": {
-            "project": "project-Fkb6Gkj433GVVvj73J7x8KbV",
-            "id": "file-Gj0p59Q40P9BQKP4Pz1qV5yj"
-          }
-        },
-        "transcript_list": {
-          "$dnanexus_link": {
-            "project": "project-Fkb6Gkj433GVVvj73J7x8KbV",
-            "id": "file-GgQ9xb8405jxjZ778k6Zg0Xk"
           }
         }
       }
@@ -106,22 +48,16 @@
       "input": {
         "input_vcf_annotated": {
           "$dnanexus_link": {
-            "stage": "stage-GF25PqQ4b0bQjvBVP4Bb5pJ0",
+            "stage": "stage-vep",
             "outputField": "annotated_vcf"
-          }
-        },
-        "transcript_file": {
-          "$dnanexus_link": {
-            "project": "project-Fkb6Gkj433GVVvj73J7x8KbV",
-            "id": "file-Gg5p2J04qJpk3GyJXjFyby66"
           }
         }
       }
     },
     {
-      "id": "stage-GF25ZXj4b0bxQzBjG9jJ1q77",
-      "executable": "app-eggd_generate_variant_workbook/2.8.0",
-      "folder": "generate_variant_workbook_v2.8.0",
+      "id": "stage-generate_variant_workbook",
+      "executable": "app-eggd_generate_variant_workbook/2.8.2",
+      "folder": "generate_variant_workbook_v2.8.2",
       "input": {
         "vcfs": [
           {
@@ -130,19 +66,7 @@
               "outputField": "output_vcf_annotated_mane"
             }
           }
-        ],
-        "exclude_columns": "ID CSQ_Allele CSQ_Mastermind_MMID3 DP_FMT",
-        "reorder_columns": "CSQ_SYMBOL CSQ_Consequence CSQ_Feature DNA Protein VF Classification Comment rawChange MANE CHROM POS REF ALT CSQ_EXON FILTER QUAL DP oncoKB PeCan cBioPortal CSQ_INTRON CSQ_IMPACT  CSQ_CADD_PHRED CSQ_REVEL CSQ_gnomADe_AF CSQ_gnomADg_AF CSQ_ClinVar CSQ_ClinVar_CLNSIG CSQ_ClinVar_CLNDN CSQ_SpliceAI_pred_DS_AG CSQ_SpliceAI_pred_DS_AL CSQ_SpliceAI_pred_DS_DG CSQ_SpliceAI_pred_DS_DL CSQ_SpliceAI_pred_DP_AG CSQ_SpliceAI_pred_DP_AL CSQ_SpliceAI_pred_DP_DG CSQ_SpliceAI_pred_DP_DL",
-        "filter": "bcftools filter -e 'INFO/DP==0 | CSQ_gnomADe_AF > 0.01 | CSQ_gnomADg_AF > 0.01 | VF < 0.05 | CSQ_Consequence==\"intron_variant&non_coding_transcript_variant\" | CSQ_Consequence==\"non_coding_transcript_exon_variant\" | CSQ_Consequence==\"3_prime_UTR_variant\" | CSQ_Consequence==\"5_prime_UTR_variant\" | CSQ_Consequence==\"downstream_gene_variant\" | CSQ_Consequence==\"intron_variant\" | CSQ_Consequence==\"splice_region_variant&intron_variant\" | CSQ_Consequence==\"splice_region_variant&synonymous_variant\" | CSQ_Consequence==\"synonymous_variant\" | (CSQ_SYMBOL != \"TERT\" & CSQ_Consequence==\"upstream_gene_variant\")'",
-        "keep_tmp": true,
-        "split_hgvs": true,
-        "add_comment_column": true,
-        "add_classification_column": true,
-        "add_raw_change": true,
-        "freeze_column": "I2",
-        "additional_columns": "oncoKB PeCan cBioPortal",
-        "summary": "helios",
-        "colour_cells": "VF:>=0.9:#2ab600 VF:<0.9&>=0.8:#51bc00 VF:<0.8&>=0.7:#7bc100 VF:<0.7&>=0.6:#a7c700 VF:<0.6&>=0.5:#ccc300 VF:<0.5&>=0.4:#d29d00 VF:<0.4&>=0.3:#d77600 VF:<0.3&>=0.2:#dd4c00 VF:<0.2&>=0.1:#e22000 VF:<0.1:#e8000f"
+        ]
       }
     }
   ]
