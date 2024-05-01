@@ -19,4 +19,4 @@ DNAnexus workflow to generate coverage reports and Excel workbooks for TSO500 so
 
 ## What version of files are used in this workflow?
 
-Inputs which are static files are defined in the current version of the Conductor Helios config at https://github.com/eastgenomics/eggd_conductor.
+Inputs which are static files are defined in the current version of the Conductor Helios config at https://github.com/eastgenomics/eggd_conductor_configs/tree/main/assay_configs/TSO500.
