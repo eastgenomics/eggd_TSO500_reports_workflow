@@ -1,6 +1,6 @@
 {
-  "name": "TSO500_reports_workflow_v2.0.0",
-  "title": "TSO500_reports_workflow_v2.0.0",
+  "name": "TSO500_reports_workflow_v2.1.0_test",
+  "title": "TSO500_reports_workflow_v2.1.0_test",
   "summary": "Workflow to generate Athena coverage report and Excel variant workbook from TSO500 local app output",
   "stages": [
     {
@@ -55,6 +55,11 @@
       }
     },
     {
+      "id": "stage-plot_variant_baf",
+      "executable": "app-eggd_plot_variant_baf/1.0.0",
+      "folder": "plot_variant_baf_v1.0.0"
+    },
+    {
       "id": "stage-generate_variant_workbook",
       "executable": "app-eggd_generate_variant_workbook/2.8.2",
       "folder": "generate_variant_workbook_v2.8.2",
@@ -64,6 +69,14 @@
             "$dnanexus_link": {
               "stage": "stage-eggd_add_MANE_annotation",
               "outputField": "output_vcf_annotated_mane"
+            }
+          }
+        ],
+        "images": [
+          {
+            "$dnanexus_link": {
+              "stage": "stage-plot_variant_baf",
+              "outputField": "baf_plot"
             }
           }
         ]
