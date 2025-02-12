@@ -1,73 +1,107 @@
-<mxfile host="65bd71144e">
-    <diagram id="PSDq3CyHMtxt2TW0u1TF" name="Page-1">
-        <mxGraphModel dx="1157" dy="575" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1700" pageHeight="1100" math="0" shadow="0">
-            <root>
-                <mxCell id="0"/>
-                <mxCell id="1" parent="0"/>
-                <mxCell id="5" value="" style="edgeStyle=none;html=1;fontColor=#141414;" parent="1" source="2" target="4" edge="1">
-                    <mxGeometry relative="1" as="geometry"/>
-                </mxCell>
-                <mxCell id="2" value="_StichedRealigned.bam + .bai" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontColor=#141414;" parent="1" vertex="1">
-                    <mxGeometry x="370" y="80" width="160" height="60" as="geometry"/>
-                </mxCell>
-                <mxCell id="10" value="" style="edgeStyle=none;html=1;fontColor=#141414;" parent="1" source="3" target="6" edge="1">
-                    <mxGeometry relative="1" as="geometry"/>
-                </mxCell>
-                <mxCell id="3" value="gVCF" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontColor=#141414;" parent="1" vertex="1">
-                    <mxGeometry x="740" y="80" width="160" height="60" as="geometry"/>
-                </mxCell>
-                <mxCell id="13" value="" style="edgeStyle=none;html=1;fontColor=#141414;" parent="1" source="4" target="7" edge="1">
-                    <mxGeometry relative="1" as="geometry"/>
-                </mxCell>
-                <mxCell id="4" value="&lt;font color=&quot;#141414&quot;&gt;mosdepth&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
-                    <mxGeometry x="370" y="200" width="160" height="60" as="geometry"/>
-                </mxCell>
-                <mxCell id="11" value="" style="edgeStyle=none;html=1;fontColor=#141414;" parent="1" source="6" target="8" edge="1">
-                    <mxGeometry relative="1" as="geometry"/>
-                </mxCell>
-                <mxCell id="6" value="&lt;font color=&quot;#141414&quot;&gt;tso500_rescue&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
-                    <mxGeometry x="740" y="200" width="160" height="60" as="geometry"/>
-                </mxCell>
-                <mxCell id="7" value="&lt;font color=&quot;#141414&quot;&gt;athena&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
-                    <mxGeometry x="370" y="320" width="160" height="60" as="geometry"/>
-                </mxCell>
-                <mxCell id="12" value="" style="edgeStyle=none;html=1;fontColor=#141414;" parent="1" source="8" target="9" edge="1">
-                    <mxGeometry relative="1" as="geometry"/>
-                </mxCell>
-                <mxCell id="8" value="&lt;font color=&quot;#141414&quot;&gt;vep&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
-                    <mxGeometry x="740" y="320" width="160" height="60" as="geometry"/>
-                </mxCell>
-                <mxCell id="9" value="&lt;font color=&quot;#141414&quot;&gt;generate_variant_workbook&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
-                    <mxGeometry x="740" y="420" width="160" height="60" as="geometry"/>
-                </mxCell>
-                <mxCell id="14" value="&lt;font color=&quot;#141414&quot;&gt;generates VCF of PASS variants + rescue variants from hotspot VCF&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
-                    <mxGeometry x="910" y="200" width="160" height="60" as="geometry"/>
-                </mxCell>
-                <mxCell id="15" value="&lt;font color=&quot;#141414&quot;&gt;annotates variants&lt;br&gt;with VEP&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
-                    <mxGeometry x="910" y="320" width="160" height="60" as="geometry"/>
-                </mxCell>
-                <mxCell id="16" value="&lt;font color=&quot;#141414&quot;&gt;generates Excel &lt;br&gt;workbook of variants&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
-                    <mxGeometry x="910" y="420" width="160" height="60" as="geometry"/>
-                </mxCell>
-                <mxCell id="17" value="&lt;font color=&quot;#141414&quot;&gt;calculates per base&amp;nbsp;&lt;br&gt;coverage&lt;br&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
-                    <mxGeometry x="540" y="200" width="160" height="60" as="geometry"/>
-                </mxCell>
-                <mxCell id="19" value="&lt;font color=&quot;#141414&quot;&gt;generates HTML&lt;br&gt;coverage report&lt;br&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
-                    <mxGeometry x="540" y="320" width="160" height="60" as="geometry"/>
-                </mxCell>
-                <mxCell id="20" value="" style="edgeStyle=none;html=1;fontColor=#141414;" edge="1" source="21" target="22" parent="1">
-                    <mxGeometry relative="1" as="geometry"/>
-                </mxCell>
-                <mxCell id="21" value=".fastq.gz" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontColor=#141414;" vertex="1" parent="1">
-                    <mxGeometry y="80" width="160" height="60" as="geometry"/>
-                </mxCell>
-                <mxCell id="22" value="&lt;font color=&quot;#141414&quot;&gt;multi_fastqc&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-                    <mxGeometry y="200" width="160" height="60" as="geometry"/>
-                </mxCell>
-                <mxCell id="23" value="&lt;font color=&quot;#141414&quot;&gt;generate QC data for given fastqs&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
-                    <mxGeometry x="170" y="200" width="160" height="60" as="geometry"/>
-                </mxCell>
-            </root>
-        </mxGraphModel>
-    </diagram>
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="26.0.11">
+  <diagram id="PSDq3CyHMtxt2TW0u1TF" name="Page-1">
+    <mxGraphModel dx="1434" dy="820" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1700" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="5" value="" style="edgeStyle=none;html=1;fontColor=#141414;" parent="1" source="2" target="4" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2" value="_StichedRealigned.bam + .bai" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontColor=#141414;" parent="1" vertex="1">
+          <mxGeometry x="370" y="80" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="10" value="" style="edgeStyle=none;html=1;fontColor=#141414;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="3" target="6" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="820" y="150" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZNWFcovSbcKA2WR7ny97-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.375;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="3" target="ZNWFcovSbcKA2WR7ny97-25">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="950" y="180" />
+              <mxPoint x="800" y="180" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3" value="gVCF" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontColor=#141414;" parent="1" vertex="1">
+          <mxGeometry x="890" y="80" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="13" value="" style="edgeStyle=none;html=1;fontColor=#141414;" parent="1" source="4" target="7" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4" value="&lt;font color=&quot;#141414&quot;&gt;mosdepth&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="370" y="200" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="11" value="" style="edgeStyle=none;html=1;fontColor=#141414;" parent="1" source="6" target="8" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6" value="&lt;font color=&quot;#141414&quot;&gt;tso500_rescue&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="890" y="200" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7" value="&lt;font color=&quot;#141414&quot;&gt;athena&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="370" y="320" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="12" value="" style="edgeStyle=none;html=1;fontColor=#141414;" parent="1" target="9" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="970" y="490" as="sourcePoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZNWFcovSbcKA2WR7ny97-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="8" target="ZNWFcovSbcKA2WR7ny97-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8" value="&lt;font color=&quot;#141414&quot;&gt;vep&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="890" y="310" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9" value="&lt;font color=&quot;#141414&quot;&gt;generate_variant_workbook&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="890" y="540" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="14" value="&lt;font color=&quot;#141414&quot;&gt;generates VCF of PASS variants + rescue variants from hotspot VCF&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+          <mxGeometry x="1090" y="200" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="15" value="&lt;font color=&quot;#141414&quot;&gt;annotates variants&lt;br&gt;with VEP&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+          <mxGeometry x="1090" y="310" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="16" value="&lt;font color=&quot;#141414&quot;&gt;generates Excel &lt;br&gt;workbook of variants&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+          <mxGeometry x="1090" y="540" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="17" value="&lt;font color=&quot;#141414&quot;&gt;calculates per base&amp;nbsp;&lt;br&gt;coverage&lt;br&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+          <mxGeometry x="540" y="200" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="19" value="&lt;font color=&quot;#141414&quot;&gt;generates HTML&lt;br&gt;coverage report&lt;br&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+          <mxGeometry x="540" y="320" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="20" value="" style="edgeStyle=none;html=1;fontColor=#141414;" parent="1" source="21" target="22" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="21" value=".fastq.gz" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontColor=#141414;" parent="1" vertex="1">
+          <mxGeometry y="80" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="22" value="&lt;font color=&quot;#141414&quot;&gt;multi_fastqc&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry y="200" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="23" value="&lt;font color=&quot;#141414&quot;&gt;generate QC data for given fastqs&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+          <mxGeometry x="170" y="200" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZNWFcovSbcKA2WR7ny97-24" value="&lt;font color=&quot;#141414&quot;&gt;mosdepth&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="370" y="200" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZNWFcovSbcKA2WR7ny97-25" value="&lt;font color=&quot;#141414&quot;&gt;plot_variant_baf&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="720" y="430" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZNWFcovSbcKA2WR7ny97-28" value="&lt;font color=&quot;#141414&quot;&gt;add_MANE_annotation&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="890" y="430" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZNWFcovSbcKA2WR7ny97-30" value="&lt;font color=&quot;#141414&quot;&gt;describes which annotated&lt;/font&gt;&lt;div&gt;&lt;font color=&quot;#141414&quot;&gt;variants are MANE&lt;/font&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="1090" y="430" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZNWFcovSbcKA2WR7ny97-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.325;entryY=-0.05;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="ZNWFcovSbcKA2WR7ny97-25" target="9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZNWFcovSbcKA2WR7ny97-33" value="&lt;font color=&quot;#141414&quot;&gt;plots BAF and read depth&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="550" y="430" width="160" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
 </mxfile>
