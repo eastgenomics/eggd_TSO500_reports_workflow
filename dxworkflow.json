@@ -61,8 +61,8 @@
     },
     {
       "id": "stage-generate_variant_workbook",
-      "executable": "app-eggd_generate_variant_workbook/2.8.2",
-      "folder": "generate_variant_workbook_v2.8.2",
+      "executable": "app-eggd_generate_variant_workbook/2.10.0",
+      "folder": "generate_variant_workbook_v2.10.0",
       "input": {
         "vcfs": [
           {
