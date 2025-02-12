@@ -15,7 +15,8 @@ DNAnexus workflow to generate coverage reports and Excel workbooks for TSO500 so
 |eggd_vcf_rescue |[1.1.0](https://github.com/eastgenomics/eggd_vcf_rescue/releases/tag/v1.1.0)|
 |eggd_vep           |[1.3.0](https://github.com/eastgenomics/eggd_vep/releases/tag/v1.3.0)|
 |eggd_add_MANE_annotation       |[1.1.0](https://github.com/eastgenomics/eggd_add_MANE_annotation/releases/tag/v1.1.0)|
-|eggd_generate_variant_workbook |[2.8.2](https://github.com/eastgenomics/eggd_generate_variant_workbook/releases/tag/v2.8.2)|
+|eggd_plot_variant_baf | [1.0.0](https://github.com/eastgenomics/eggd_plot_variant_baf/releases/tag/v1.0.0)|
+|eggd_generate_variant_workbook |[2.10.0](https://github.com/eastgenomics/eggd_generate_variant_workbook/releases/tag/v2.10.0)|
 
 ## What version of files are used in this workflow?
 
