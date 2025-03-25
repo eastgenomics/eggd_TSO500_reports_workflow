@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="26.0.11">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36" version="26.1.2">
   <diagram id="PSDq3CyHMtxt2TW0u1TF" name="Page-1">
-    <mxGraphModel dx="1434" dy="820" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1700" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1687" dy="854" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1700" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -10,21 +10,17 @@
         <mxCell id="2" value="_StichedRealigned.bam + .bai" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontColor=#141414;" parent="1" vertex="1">
           <mxGeometry x="370" y="80" width="160" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="10" value="" style="edgeStyle=none;html=1;fontColor=#141414;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="3" target="6" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="820" y="150" as="sourcePoint" />
-          </mxGeometry>
+        <mxCell id="Kgg95P8LZzUQBvcJKJBw-30" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="3" target="6" edge="1">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="ZNWFcovSbcKA2WR7ny97-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.375;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="3" target="ZNWFcovSbcKA2WR7ny97-25">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="950" y="180" />
-              <mxPoint x="800" y="180" />
-            </Array>
-          </mxGeometry>
+        <mxCell id="M7WASSR7C_pVIdHwJh2U-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="3" target="ZNWFcovSbcKA2WR7ny97-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="M7WASSR7C_pVIdHwJh2U-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="3" target="Kgg95P8LZzUQBvcJKJBw-24">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="3" value="gVCF" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontColor=#141414;" parent="1" vertex="1">
-          <mxGeometry x="890" y="80" width="160" height="60" as="geometry" />
+          <mxGeometry x="894" y="80" width="160" height="60" as="geometry" />
         </mxCell>
         <mxCell id="13" value="" style="edgeStyle=none;html=1;fontColor=#141414;" parent="1" source="4" target="7" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -36,34 +32,34 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="6" value="&lt;font color=&quot;#141414&quot;&gt;tso500_rescue&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
-          <mxGeometry x="890" y="200" width="160" height="60" as="geometry" />
+          <mxGeometry x="894" y="170" width="160" height="60" as="geometry" />
         </mxCell>
         <mxCell id="7" value="&lt;font color=&quot;#141414&quot;&gt;athena&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
           <mxGeometry x="370" y="320" width="160" height="60" as="geometry" />
         </mxCell>
         <mxCell id="12" value="" style="edgeStyle=none;html=1;fontColor=#141414;" parent="1" target="9" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="970" y="490" as="sourcePoint" />
+            <mxPoint x="974" y="460" as="sourcePoint" />
             <Array as="points" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="ZNWFcovSbcKA2WR7ny97-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="8" target="ZNWFcovSbcKA2WR7ny97-28">
+        <mxCell id="ZNWFcovSbcKA2WR7ny97-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="8" target="ZNWFcovSbcKA2WR7ny97-28" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="8" value="&lt;font color=&quot;#141414&quot;&gt;vep&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
-          <mxGeometry x="890" y="310" width="160" height="60" as="geometry" />
+          <mxGeometry x="894" y="280" width="160" height="60" as="geometry" />
         </mxCell>
         <mxCell id="9" value="&lt;font color=&quot;#141414&quot;&gt;generate_variant_workbook&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
-          <mxGeometry x="890" y="540" width="160" height="60" as="geometry" />
+          <mxGeometry x="894" y="510" width="160" height="60" as="geometry" />
         </mxCell>
         <mxCell id="14" value="&lt;font color=&quot;#141414&quot;&gt;generates VCF of PASS variants + rescue variants from hotspot VCF&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
-          <mxGeometry x="1090" y="200" width="160" height="60" as="geometry" />
+          <mxGeometry x="727" y="170" width="160" height="60" as="geometry" />
         </mxCell>
         <mxCell id="15" value="&lt;font color=&quot;#141414&quot;&gt;annotates variants&lt;br&gt;with VEP&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
-          <mxGeometry x="1090" y="310" width="160" height="60" as="geometry" />
+          <mxGeometry x="727" y="280" width="160" height="60" as="geometry" />
         </mxCell>
         <mxCell id="16" value="&lt;font color=&quot;#141414&quot;&gt;generates Excel &lt;br&gt;workbook of variants&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
-          <mxGeometry x="1090" y="540" width="160" height="60" as="geometry" />
+          <mxGeometry x="727" y="510" width="160" height="60" as="geometry" />
         </mxCell>
         <mxCell id="17" value="&lt;font color=&quot;#141414&quot;&gt;calculates per base&amp;nbsp;&lt;br&gt;coverage&lt;br&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
           <mxGeometry x="540" y="200" width="160" height="60" as="geometry" />
@@ -83,23 +79,32 @@
         <mxCell id="23" value="&lt;font color=&quot;#141414&quot;&gt;generate QC data for given fastqs&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
           <mxGeometry x="170" y="200" width="160" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="ZNWFcovSbcKA2WR7ny97-24" value="&lt;font color=&quot;#141414&quot;&gt;mosdepth&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+        <mxCell id="ZNWFcovSbcKA2WR7ny97-24" value="&lt;font color=&quot;#141414&quot;&gt;mosdepth&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
           <mxGeometry x="370" y="200" width="160" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="ZNWFcovSbcKA2WR7ny97-25" value="&lt;font color=&quot;#141414&quot;&gt;plot_variant_baf&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="720" y="430" width="160" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="ZNWFcovSbcKA2WR7ny97-28" value="&lt;font color=&quot;#141414&quot;&gt;add_MANE_annotation&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="890" y="430" width="160" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="ZNWFcovSbcKA2WR7ny97-30" value="&lt;font color=&quot;#141414&quot;&gt;describes which annotated&lt;/font&gt;&lt;div&gt;&lt;font color=&quot;#141414&quot;&gt;variants are MANE&lt;/font&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry x="1090" y="430" width="160" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="ZNWFcovSbcKA2WR7ny97-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.325;entryY=-0.05;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="ZNWFcovSbcKA2WR7ny97-25" target="9">
+        <mxCell id="Kgg95P8LZzUQBvcJKJBw-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="ZNWFcovSbcKA2WR7ny97-25" target="9" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="ZNWFcovSbcKA2WR7ny97-33" value="&lt;font color=&quot;#141414&quot;&gt;plots BAF and read depth&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry x="550" y="430" width="160" height="60" as="geometry" />
+        <mxCell id="ZNWFcovSbcKA2WR7ny97-25" value="&lt;font color=&quot;#141414&quot;&gt;plot_variant_baf&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="1094" y="423" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZNWFcovSbcKA2WR7ny97-28" value="&lt;font color=&quot;#141414&quot;&gt;add_MANE_annotation&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="894" y="400" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZNWFcovSbcKA2WR7ny97-30" value="&lt;font color=&quot;#141414&quot;&gt;describes which annotated&lt;/font&gt;&lt;div&gt;&lt;font color=&quot;#141414&quot;&gt;variants are MANE&lt;/font&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+          <mxGeometry x="727" y="400" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZNWFcovSbcKA2WR7ny97-33" value="&lt;font color=&quot;#141414&quot;&gt;plots BAF and read depth&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+          <mxGeometry x="1290" y="423" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Kgg95P8LZzUQBvcJKJBw-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="Kgg95P8LZzUQBvcJKJBw-24" target="9" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Kgg95P8LZzUQBvcJKJBw-24" value="&lt;font color=&quot;#141414&quot;&gt;CNVkit&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="1094" y="342" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Kgg95P8LZzUQBvcJKJBw-25" value="calls and plots CNVs" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+          <mxGeometry x="1290" y="342" width="160" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
