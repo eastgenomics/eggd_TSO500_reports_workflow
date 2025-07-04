@@ -61,8 +61,8 @@
     },
     {
       "id": "stage-plot_variant_baf",
-      "executable": "app-eggd_plot_variant_baf/2.0.0",
-      "folder": "plot_variant_baf_v2.0.0",
+      "executable": "app-eggd_plot_variant_baf/2.0.1",
+      "folder": "plot_variant_baf_v2.0.1",
       "input": {
         "vcf": {
         "$dnanexus_link": {
