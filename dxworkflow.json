@@ -1,6 +1,6 @@
 {
-  "name": "TSO500_reports_workflow_v2.3.0",
-  "title": "TSO500_reports_workflow_v2.3.0",
+  "name": "TSO500_reports_workflow_v2.4.0",
+  "title": "TSO500_reports_workflow_v2.4.0",
   "summary": "Workflow to generate Athena coverage report and Excel variant workbook from TSO500 local app output",
   "stages": [
     {
@@ -12,6 +12,11 @@
       "id": "stage-mosdepth",
       "executable": "app-eggd_mosdepth/1.1.0",
       "folder": "mosdepth_v1.1.0"
+    },
+    {
+      "id": "stage-picardQC",
+      "executable": "app-eggd_picard_QC/1.2.0",
+      "folder": "picardQC_v1.2.0"
     },
     {
       "id": "stage-athena",
