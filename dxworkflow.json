@@ -1,6 +1,6 @@
 {
-  "name": "TSO500_reports_workflow_v2.5.1",
-  "title": "TSO500_reports_workflow_v2.5.1",
+  "name": "TSO500_reports_workflow_v2.6.0",
+  "title": "TSO500_reports_workflow_v2.6.0",
   "summary": "Workflow to generate Athena coverage report and Excel variant workbook from TSO500 local app output",
   "stages": [
     {
@@ -39,9 +39,22 @@
       }
     },
     {
+      "id": "stage-vcf_normaliser",
+      "executable": "app-eggd_vcf_normaliser/1.0.0",
+      "folder": "/eggd_vcf_normaliser_1.0.0"
+    },
+    {
       "id": "stage-vcf_rescue",
       "executable": "app-eggd_vcf_rescue/1.1.0",
-      "folder": "/vcf_rescue_1.1.0"
+      "folder": "/vcf_rescue_1.1.0",
+      "input": {
+        "gvcf": {
+          "$dnanexus_link": {
+            "stage": "stage-vcf_normaliser",
+            "outputField": "output_vcf"
+          }
+        }
+      }
     },
     {
       "id": "stage-vep",
